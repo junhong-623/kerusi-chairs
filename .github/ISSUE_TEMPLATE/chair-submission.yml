@@ -1,6 +1,7 @@
 name: Submit a chair / 椅子投稿
 description: Share a chair model and its story for the keru.si collection.
 title: "[Chair] "
+labels: ["submitted"]
 body:
   - type: markdown
     attributes:
