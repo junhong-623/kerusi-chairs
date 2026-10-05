@@ -1,0 +1,25 @@
+{
+  "id": "example-chair",
+  "names": {
+    "en": "Example Chair",
+    "ms": "Kerusi Contoh",
+    "zh": "示例椅"
+  },
+  "descriptions": {
+    "en": "Replace this with the reviewed chair story.",
+    "ms": "Gantikan dengan cerita kerusi yang telah disemak.",
+    "zh": "替换为审核后的椅子介绍。"
+  },
+  "creator": {
+    "name": "Creator name",
+    "url": "https://example.com"
+  },
+  "submission": "https://github.com/junhong-623/kerusi-chairs/issues/1",
+  "license": {
+    "name": "Replace with the reviewed license",
+    "source": "https://example.com/license",
+    "file": "LICENSE.txt"
+  },
+  "model": "model.glb",
+  "poster": "poster.webp"
+}

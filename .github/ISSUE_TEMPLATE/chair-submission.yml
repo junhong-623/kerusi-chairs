@@ -1,0 +1,93 @@
+name: Submit a chair / 椅子投稿
+description: Share a chair model and its story for the keru.si collection.
+title: "[Chair] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One chair started it. Yours could be next.
+
+        English, Bahasa Melayu and 中文 are welcome.
+        投稿不会自动上线；作者会先审核模型和授权。
+        Model anda akan disemak sebelum dipamerkan.
+
+        This is a public submission. Share only public links and information.
+  - type: input
+    id: chair-name
+    attributes:
+      label: Chair name / 椅子名称
+      placeholder: "Example: Blue Bridge / 蓝桥椅"
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator credit / 作者署名
+      description: The name or nickname you want displayed beside your chair.
+      placeholder: "Your creator name"
+    validations:
+      required: true
+  - type: input
+    id: creator-link
+    attributes:
+      label: Creator website / 作者链接
+      description: Optional public portfolio or GitHub profile.
+      placeholder: "https://..."
+  - type: textarea
+    id: model
+    attributes:
+      label: Model download link or ZIP / 模型链接或 ZIP
+      description: |
+        Paste a public downloadable GLB link, or drag a ZIP containing your GLB into this field.
+        Pack textures inside the GLB. Maximum GLB size is 10 MB; under 5 MB is preferred.
+        不要提供需要密码、私人访问令牌或付费才能下载的链接。
+      placeholder: "Paste a download link here, or attach your GLB inside a ZIP."
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: Chair story / 椅子的故事
+      description: What inspired it? What gives it personality? One language is enough; humour is welcome.
+      placeholder: "A few sentences about your chair."
+    validations:
+      required: true
+  - type: textarea
+    id: preview
+    attributes:
+      label: Preview image / 预览图
+      description: Drag in a screenshot or render, or paste a public image link.
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: Model and texture license / 模型与贴图授权
+      description: Choose the license that actually applies to your files. Include source credits below.
+      options:
+        - "CC0 1.0"
+        - "CC BY 4.0"
+        - "Original work with explicit permission for keru.si / 原创作品，明确授权给 keru.si"
+        - "Another license / 其他授权（在下方说明）"
+    validations:
+      required: true
+  - type: textarea
+    id: permission-details
+    attributes:
+      label: Permission and source details / 授权和来源说明
+      description: |
+        Include the source/license link and all required credits. If this is your own work,
+        state that keru.si may display it, host the model and textures as downloadable website
+        assets, and optimise the files while crediting you. Disclose any third-party parts.
+      placeholder: "Source link, license, credits, and any restrictions."
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before submitting / 投稿确认
+      options:
+        - label: "I created these assets or have permission to submit them, including textures. / 我拥有作品或获得投稿授权，包含贴图。"
+          required: true
+        - label: "I understand my submission is public and requires review before appearing on keru.si. / 我理解投稿公开，审核后才可能收录。"
+          required: true
