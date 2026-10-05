@@ -1,53 +1,91 @@
-# A chair for keru.si
+# Got chair? Kasi sini lah.
 
-One chair started it. Yours could be next.
+**A little corner of the internet for chairs with a lot of personality.**
 
-This is the community submission desk for [keru.si](https://keru.si), created by
-[jeeprod.com](https://jeeprod.com). Share a 3D chair and its story through the
-GitHub form. The website owner reviews each submission before adding it to the
-collection. Submitting a model does not automatically publish it.
+We're collecting chairs for [keru.si](https://keru.si). Our first chair,
+Blue Bridge, has already called dibs on seat number one. Yours could be next.
+Fancy curves, plastic-chair energy, or something that
+looks like it belongs at a mamak table — we want to see it.
 
-[Submit your chair / 投稿一把椅子 / Hantar kerusi anda](https://github.com/junhong-623/kerusi-chairs/issues/new?template=chair-submission.yml)
+Made by [jeeprod.com](https://jeeprod.com). Seats supplied by imagination.
 
-## What to bring
+**[Submit a chair →](https://github.com/junhong-623/kerusi-chairs/issues/new?template=chair-submission.yml)**
+&nbsp; · &nbsp; [Submission guide](CONTRIBUTING.md)
+&nbsp; · &nbsp; [Visit keru.si](https://keru.si)
 
-- A `.glb` chair model with textures packed inside. Provide a downloadable link,
-  or put the model in a ZIP and attach it to the form.
-- A name, a short story, a preview image, and the creator name you want displayed.
-- A license or written permission allowing the model to be displayed on keru.si
-  and distributed as a website asset. Include permission for any textures too.
+---
 
-Aim for a model under **5 MB**; the first version accepts up to **10 MB** per GLB.
-Funny stories are very welcome. Submissions can be in English, Bahasa Melayu,
-or Chinese; the maintainer prepares the other languages before publication.
+## Bring your chair. Bring its story.
 
-Read [the submission guide](CONTRIBUTING.md) for details.
+No coding needed. No essay needed. Just a chair model and a little personality.
 
-## 中文
+| Bring this | What we need |
+| --- | --- |
+| **The chair** | A self-contained `.glb`, with textures packed inside. Share a download link or attach it inside a ZIP. |
+| **The name** | Something we can introduce it by. “Untitled Final FINAL v3” deserves a second chance. |
+| **The story** | A few lines about its inspiration or personality. Funny is good. Weird is welcome. |
+| **The face** | A screenshot or render so we can meet your chair before opening the model. |
+| **The credit** | Your creator name, plus an optional public portfolio link. |
+| **The permission** | Its license or written permission for keru.si to display, host and distribute the model and textures. |
 
-蓝桥椅已经坐上第一把交椅。下一把，也许就是你的。
+**Keep it light:** under **5 MB** is ideal; **10 MB per GLB** is the current maximum.
+Your chair can be dramatic. Its loading time shouldn't be.
 
-打开上面的投稿表单，填写椅子名称、作者署名、介绍和授权说明，再贴上模型
-下载链接或上传 ZIP。英文、马来文和中文都可以。收到投稿后，网页作者会先
-检查模型和授权，再决定是否收录；提交后不会直接出现在网站上。
+Write in **English, Bahasa Melayu or 中文**. One language is enough; the maintainer
+prepares the other two before publication. No need to become a translator also.
 
-## Bahasa Melayu
+## How to get a seat
 
-Jambatan Biru dah ambil tempat pertama. Kerusi seterusnya mungkin kerusi anda.
+1. **Sign in to GitHub** and open the [submission form](https://github.com/junhong-623/kerusi-chairs/issues/new?template=chair-submission.yml).
+2. **Send your model and details.** Download link or ZIP, preview, story, credit and permission.
+3. **Let us check it.** The website owner reviews the model and its permission, then replies in your issue.
+4. **If accepted, we prepare it for the website.** Once it is published and checked live, we'll share the result in your issue.
 
-Buka borang di atas, isi nama kerusi, nama pencipta, cerita ringkas dan maklumat
-lesen. Sertakan pautan muat turun model atau lampirkan fail ZIP. Anda boleh
-menulis dalam Bahasa Melayu, bahasa Inggeris atau bahasa Cina. Pemilik laman akan menyemak
-model dan kebenaran penggunaan sebelum memilihnya untuk dipamerkan.
+Submitting is an invitation to review, not an instant seat reservation. There
+may be follow-up questions or changes before a chair is ready for the collection.
 
-## Review and publication
+## Ada kerusi? Hantar sini lah.
 
-The maintainer replies in the submission issue with a decision or requested
-changes. Accepted models are added to the website in a separate, reviewed
-change. An acceptance reply is not a claim that deployment has finished; the
-issue is closed as published only after the chair is verified on the live site.
+Jambatan Biru dah cop tempat pertama. Kerusi anda mungkin yang seterusnya.
+Yang bergaya, yang pelik, yang ada vibe kedai mamak — semua boleh cuba hantar.
 
-This repository contains submission forms and guides. The website code and its
-deployment credentials are managed separately. Creator names, model links,
-and issue attachments submitted here are public; do not include passwords,
-private download tokens, or personal contact details.
+Tak perlu pandai coding. Tak perlu karangan panjang. Buka borang di atas,
+sertakan model `.glb` melalui pautan muat turun atau ZIP, kemudian isi nama
+kerusi, cerita ringkas, gambar, nama pencipta dan maklumat lesen.
+
+Bahasa Melayu, English atau 中文 pun boleh. Satu bahasa dah cukup; terjemahan
+kita settle. Pemilik laman akan semak dulu. Kalau diterima, barulah kerusi
+anda disediakan untuk dipamerkan. Hantar borang tak bermakna terus masuk laman.
+
+**Kerusi boleh curi perhatian. Jangan curi hasil orang.** Pastikan model dan
+tekstur memang milik anda, atau anda ada kebenaran untuk penggunaan ini.
+
+## 有椅子？拿来 lah。
+
+蓝桥椅已经坐上第一把交椅。下一把，说不定就是你的。
+可以优雅，可以古怪，也可以很有 mamak 档塑料椅的气场。先让我们看看。
+
+不用会写代码，也不用交作文。打开上面的投稿表单，贴上 `.glb` 模型下载
+链接或上传 ZIP，再填椅子名称、小故事、预览图、作者署名和授权说明。
+
+英文、马来文、中文都可以，写一种就够，其他语言我们来准备。
+收到后，网页作者会先审核模型和授权；通过后再安排收录。
+想坐上下一把交椅？Boleh，先填表。
+
+**椅子可以抢镜，不能抢别人的作品。** 模型和贴图都需要属于你，
+或取得允许网页展示和分发的授权。
+
+## Small print, no drama
+
+- **Credit stays with the creator.** Tell us the name and source credits that need to appear with your work.
+- **Permission matters.** Include the actual license or written permission, including any third-party textures. A model you found online isn't automatically yours to submit.
+- **Submissions are public.** Names, links and attachments in these issues can be seen by anyone. Keep passwords, private download tokens and personal contact details out of the form.
+- **Review comes first.** An issue does not automatically import a model or publish it to the website. Acceptance and verified publication are separate stages.
+
+This repository is the submission desk. The website is maintained separately.
+For the full model requirements, see [CONTRIBUTING.md](CONTRIBUTING.md).
+For the review procedure, see the [maintainer guide](docs/maintainer-review.md).
+
+---
+
+*Please, take a seat. Just not on your screen, okay?*
