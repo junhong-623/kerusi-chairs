@@ -1,25 +1,53 @@
 {
+  "schemaVersion": 1,
   "id": "example-chair",
-  "names": {
-    "en": "Example Chair",
-    "ms": "Kerusi Contoh",
-    "zh": "示例椅"
-  },
-  "descriptions": {
-    "en": "Replace this with the reviewed chair story.",
-    "ms": "Gantikan dengan cerita kerusi yang telah disemak.",
-    "zh": "替换为审核后的椅子介绍。"
+  "number": 2,
+  "order": 2,
+  "translations": {
+    "en": {
+      "name": "Example Chair",
+      "tagline": "",
+      "intro": "Replace this with the reviewed chair story.",
+      "joke": "",
+      "form": "",
+      "finish": "",
+      "personality": "",
+      "signoff": ""
+    },
+    "ms": {
+      "name": "Kerusi Contoh",
+      "tagline": "",
+      "intro": "Gantikan dengan cerita kerusi yang telah disemak.",
+      "joke": "",
+      "form": "",
+      "finish": "",
+      "personality": "",
+      "signoff": ""
+    },
+    "zh": {
+      "name": "示例椅",
+      "tagline": "",
+      "intro": "替换为审核后的椅子介绍。",
+      "joke": "",
+      "form": "",
+      "finish": "",
+      "personality": "",
+      "signoff": ""
+    }
   },
   "creator": {
     "name": "Creator name",
     "url": "https://example.com"
   },
-  "submission": "https://github.com/junhong-623/kerusi-chairs/issues/1",
   "license": {
-    "name": "Replace with the reviewed license",
-    "source": "https://example.com/license",
-    "file": "LICENSE.txt"
+    "label": "Replace with the reviewed license",
+    "details": "Replace with the actual permission, source links, credit requirements and restrictions.",
+    "permissionConfirmed": false
   },
-  "model": "model.glb",
-  "poster": "poster.webp"
+  "assets": {
+    "model": "",
+    "poster": "",
+    "share": ""
+  },
+  "sourceIssue": null
 }

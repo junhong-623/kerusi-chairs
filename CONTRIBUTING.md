@@ -20,10 +20,30 @@ For this first version, submit a static chair with standard glTF materials.
 Avoid animations and custom rendering extensions. The maintainer will check
 actual browser compatibility before accepting it.
 
+### File limits
+
+| File | Requirement |
+| --- | --- |
+| Submitted GLB | At most **10 MB**, preferably under **5 MB**. |
+| Preview or share image | PNG, JPEG or WebP; at most **3 MB** each. A dedicated share image is optional; **1200 × 630** is recommended. |
+| ZIP package | Apply the model limit to each extracted GLB. Include the model, previews and permission notes; the backend does not extract ZIPs automatically. |
+
+The admin backend's **12 MB** model upload ceiling is a technical allowance,
+not the contribution limit. Submissions still follow the **10 MB** requirement.
+Backend byte limits use 1024 × 1024 bytes for each MB displayed in its interface.
+The form requires filled fields; maintainers check file sizes and permissions.
+
 Paste a public model download link in the form, or attach a ZIP containing the
 GLB. GitHub's file attachments do not directly accept GLB, so ZIP is the upload
 route. Include a screenshot or render in the preview field. The form supports
 attachments in its text areas.
+
+For automatic import, a GitHub-hosted download URL whose path ends in `.glb`
+and a GitHub-hosted image URL ending in `.png`, `.jpg`, `.jpeg` or `.webp` are
+currently easiest to recognise. A GitHub file page is not a direct model
+download; use its raw/download link. ZIPs, other file hosts and attachment URLs
+that the importer cannot recognise are reviewed and uploaded manually by the
+maintainer. These submissions are welcome too; allow time for that extra step lah.
 
 ## Story and creator credit
 
@@ -34,6 +54,12 @@ other languages and can ask you to check the wording.
 
 Keep personal contact information out of the issue. We can ask follow-up
 questions through GitHub comments.
+
+If you already have all three names, write them as `中文名称 · English name ·
+Nama Bahasa Melayu`. Three-language stories can use separate **中文**,
+**English** and **Bahasa Melayu** headings. This is optional; one language is
+still enough. See [Kenduri Red / 庙会红椅](https://github.com/junhong-623/kerusi-chairs/issues/1)
+for a complete example of model links, renders, stories and permission.
 
 ## Permission
 
@@ -56,10 +82,14 @@ Submitting an issue does not transfer ownership of your work.
 
 1. The owner checks the file, story and permission and replies in your issue.
 2. If changes are needed, you can update the download link or attachment.
-3. If accepted, the owner integrates the chair into the website and checks it
-   locally before publication.
-4. After deployment is verified, the owner replies with the public result and
-   closes the issue as published.
+3. The owner imports a private draft through the website admin, or downloads
+   and uploads the files manually. The owner checks the three languages,
+   author and permission, then saves and tests the 3D preview.
+4. The owner explicitly publishes the reviewed draft. Only the published
+   snapshot appears in the exhibition, with its own `/chairs/<chair-id>` link.
+5. Once that public result is verified, the owner replies with the link, marks
+   the GitHub issue `published` and closes it. GitHub labels and replies are
+   managed manually; the admin does not update them automatically.
 
 Files are reviewed manually. A submission does not execute code, change the
 website, or trigger deployment.

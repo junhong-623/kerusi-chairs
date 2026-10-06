@@ -41,7 +41,9 @@ body:
       description: |
         Paste a public downloadable GLB link, or drag a ZIP containing your GLB into this field.
         Pack textures inside the GLB. Maximum GLB size is 10 MB; under 5 MB is preferred.
+        For a ZIP, this limit applies to the extracted GLB. ZIPs are reviewed and uploaded manually.
         不要提供需要密码、私人访问令牌或付费才能下载的链接。
+        模型上限按解压后的 GLB 计算；ZIP 由维护者审核并手动上传。
       placeholder: "Paste a download link here, or attach your GLB inside a ZIP."
     validations:
       required: true
@@ -57,7 +59,7 @@ body:
     id: preview
     attributes:
       label: Preview image / 预览图
-      description: Drag in a screenshot or render, or paste a public image link.
+      description: "Drag in a screenshot or render, or paste a public image link. Use PNG, JPEG or WebP, at most 3 MB per image. / 使用 PNG、JPEG 或 WebP，每张最多 3 MB。"
     validations:
       required: true
   - type: dropdown
