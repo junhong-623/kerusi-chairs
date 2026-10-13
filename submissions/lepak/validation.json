@@ -1,0 +1,83 @@
+{
+  "file": "beige-sofa-chair.glb",
+  "bytes": 3608692,
+  "sha256": "6da9b300b1cb6dfd152bc5dc543c7cff559e45ce5636dda345f8e8b073bf24a5",
+  "gltfVersion": "2.0",
+  "triangles": 77648,
+  "meshCount": 13,
+  "materials": [
+    "Warm beige fine-grain leather upholstery",
+    "Black woven underside dust cover",
+    "Black folded fabric hem",
+    "Satin dark walnut sculpted legs",
+    "Satin antique brass foot ferrules"
+  ],
+  "textures": [
+    {
+      "width": 512,
+      "height": 512
+    },
+    {
+      "width": 512,
+      "height": 512
+    },
+    {
+      "width": 512,
+      "height": 512
+    },
+    {
+      "width": 512,
+      "height": 512
+    },
+    {
+      "width": 512,
+      "height": 512
+    },
+    {
+      "width": 256,
+      "height": 256
+    }
+  ],
+  "extensionsRequired": [],
+  "extensionsUsed": [],
+  "animations": 0,
+  "embeddedResources": true,
+  "previewImages": [
+    {
+      "file": "beige-sofa-hero.png",
+      "bytes": 982752,
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "file": "beige-sofa-front.png",
+      "bytes": 797579,
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "file": "beige-sofa-side.png",
+      "bytes": 712008,
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "file": "beige-sofa-back.png",
+      "bytes": 1097599,
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "file": "beige-sofa-bottom.png",
+      "bytes": 438864,
+      "width": 1200,
+      "height": 1200
+    }
+  ],
+  "continuousShellTopology": {
+    "connectedComponents": 1,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "degenerateTriangles": 0
+  }
+}

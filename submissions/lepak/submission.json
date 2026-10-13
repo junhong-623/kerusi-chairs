@@ -1,0 +1,25 @@
+{
+  "id": "lepak",
+  "version": "6.0",
+  "name": {
+    "en": "Lepak",
+    "ms": "Lepak",
+    "zh": "Lepak"
+  },
+  "intro": {
+    "zh": "忙了一天，坐下来先 lah。喝杯 kopi，跟家人聊聊今天的小事，或一个人滑滑手机、发发呆。周末不用安排得满满，回到家也不用急着做下一件事。这里留一个位子给你，想 lepak 就 lepak。",
+    "en": "Long day? Come, lepak lah. Have a kopi, catch up with the family, or scroll a little and let your mind wander. Weekends don’t need to be packed, and the next thing on your list can wait. There’s a spot here for you. Make yourself at home.",
+    "ms": "Penat seharian? Jom lepak dulu. Minum kopi, borak dengan keluarga tentang cerita hari ini, atau layan telefon sambil berehat. Hujung minggu tak semestinya penuh dengan rancangan. Bila dah sampai rumah, tak perlu terus fikir apa nak buat selepas ini. Ada tempat untuk anda di sini. Duduklah, santai dulu."
+  },
+  "creator": {
+    "name": "junhong-623"
+  },
+  "license": {
+    "label": "Original work with explicit permission for keru.si",
+    "details": "The submitter authorises keru.si to display, host and distribute the Lepak model, embedded textures and preview images as website assets, and to optimise the files for web viewing, while displaying the creator credit junhong-623. Ownership remains with the creator. This is project-specific permission for keru.si, not CC0, CC BY or a general reuse licence."
+  },
+  "source": "Created with AI-assisted procedural modelling under the submitter’s design direction. Chair geometry, leather grain, woven underside and wood grain were generated for this asset; no stock model or third-party texture was used. Three.js was used as a production tool; no Three.js runtime or other executable code is included in this submission.",
+  "permissionConfirmed": "2026-10-13",
+  "model": "lepak.glb",
+  "preview": "lepak-hero.png"
+}
